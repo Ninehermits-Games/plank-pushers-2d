@@ -92,17 +92,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/Build.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Build.data",
-      frameworkUrl: buildUrl + "/Build.framework.js",
-		cacheControl: function (url) {
-			if (url.match(/\.data/) || url.match(/\.bundle/)) {
-			  return "must-revalidate";
-			}
-			// Disable explicit caching for all other files.
-			// Note: the default browser cache may cache them anyway.
-			return "no-store";
-      },
-        codeUrl: buildUrl + "/Build.wasm",
+      dataUrl: buildUrl + "/e4bbe2ef4396a0404617fab645751e86.data",
+      frameworkUrl: buildUrl + "/da01c8014c3500514331d560124b6b3b.js",
+        codeUrl: buildUrl + "/41bd304aa93e0925659dbf757571d4f1.wasm",
         streamingAssetsUrl: "StreamingAssets",
 		companyName: "DefaultCompany",
 		productName: "PP2D",
